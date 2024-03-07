@@ -47,6 +47,7 @@ int main(void) {
 	cout << "Calls: " << calls << endl; // checking to see amt of times recursive function was called
 
 	cout << "\n" << endl;
+	cout << "\n" << endl;
 
 	return 0;
 
