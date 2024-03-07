@@ -41,11 +41,12 @@ int main(void) {
 	cout << "\nRecursive Output: " << fibNumRec(num);
 	timeEnd = high_resolution_clock::now();
 
-
 	duration = duration_cast<microseconds>(timeEnd - timeBeg);
 	cout << "\nTime: " << duration.count() << " microseconds" << endl;
 
 	cout << "Calls: " << calls << endl; // checking to see amt of times recursive function was called
+
+	cout << "\n" << endl;
 
 	return 0;
 
